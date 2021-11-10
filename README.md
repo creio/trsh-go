@@ -65,7 +65,7 @@ docker build -t trsh .
 2) Run the docker image and specify your ENV vars (below an example):
 
 ```
-docker run -d -e TGBOT_TOKEN="123456789:qwertyuiopasdfghjklzxcb" -e TGBOT_CHATID="12345678" trsh-go
+docker run -d -e TGBOT_TOKEN="123456789:qwertyuiopasdfghjklzxcb" -e TGBOT_CHATID="12345678" trsh
 ```
 
 3) Chat with your Bot
