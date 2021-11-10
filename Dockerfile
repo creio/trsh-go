@@ -6,7 +6,7 @@ WORKDIR /app
 
 RUN go get -u "gopkg.in/telegram-bot-api.v4"
 RUN apt update -y
-RUN apt install -y mtr dnsutils nmap net-tools
+RUN apt install -y mtr dnsutils nmap net-tools whois
 
 ADD . /app
 
